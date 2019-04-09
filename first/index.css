@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    background-color: #d8d8d8;
+    margin: 0px;
+}
+.header {
+    background: #444;
+    height: 100px;
+    width: 100%;
+}
+
+.section {
+    background: white;
+    width: 100%;
+    max-width: 600px;
+    /* height: 400px; */
+    margin:  0px auto;
+    padding: 20px;
+    min-height: calc(100vh - 150px);
+    /* position: relative; */
+}
+
+.footer{
+    background: black;
+    height: 50px;
+    
+    bottom: 0px;
+    width: 600px;
+    margin:  0 auto;
+
+}
+
+.pretend-content {
+    width: 200px;
+    /* height: 200px; */
+    background: orange;
+    border: 1px solid black;
+    margin: 20px auto;
+}
+
+/* .hero{
+    background: pink;
+    width: 100%;
+    max-width: 600px;
+    /* height: 400px; */
+    margin:  0px auto;
+    height: 600px;
+    /* margin-bottom: 10px; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* position: relative; */
+    background-image: url("https://cdn.shopify.com/s/files/1/1413/3658/products/Davidson_300x300.png?v=1522883369")
+} */
